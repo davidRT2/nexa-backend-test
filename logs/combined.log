@@ -1,0 +1,96 @@
+[2025-03-02T22:08:46.599Z] INFO: Incoming Request: GET /karyawan
+[2025-03-02T22:08:53.846Z] INFO: Incoming Request: GET /karyawan
+[2025-03-02T22:09:39.988Z] INFO: Incoming Request: GET /karyawand
+[2025-03-02T22:09:51.251Z] INFO: Incoming Request: GET /karyawand
+[2025-03-02T22:09:51.774Z] INFO: Incoming Request: GET /karyawand
+[2025-03-02T22:10:42.630Z] INFO: Incoming Request: GET /karyawand
+[2025-03-02T22:10:45.068Z] INFO: Incoming Request: GET /karyawand
+[2025-03-02T22:11:20.342Z] INFO: [GET] /karyawand - Status: 404
+[2025-03-02T22:13:25.821Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:13:33.917Z] INFO: [GET] /karyawan - Status: 200 - 173ms
+[2025-03-02T22:13:45.867Z] WARN: ⚠️ 404 Not Found - [GET] /karyawanm
+[2025-03-02T22:13:45.870Z] INFO: [GET] /karyawanm - Status: 404 - 4ms
+[2025-03-02T22:22:46.436Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:24:13.314Z] INFO: [POST] /karyawan - Status: 400 - 23ms
+[2025-03-02T22:27:01.324Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:28:04.659Z] ERROR: ❌ Error createKaryawan: Cannot read properties of undefined (reading 'buffer')
+[2025-03-02T22:28:04.665Z] INFO: [POST] /karyawan - Status: 500 - 179ms
+[2025-03-02T22:30:01.668Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:30:04.429Z] ERROR: ❌ Error createKaryawan: Incorrect number of arguments for PROCEDURE gmedia_democase.sp_add_kary_Muhammad_David_Akbar; expected 8, got 6
+[2025-03-02T22:30:04.433Z] INFO: [POST] /karyawan - Status: 500 - 140ms
+[2025-03-02T22:32:16.833Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:32:26.770Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:32:51.524Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:32:54.003Z] ERROR: ❌ Error createKaryawan: Incorrect number of arguments for PROCEDURE gmedia_democase.sp_add_kary_Muhammad_David_Akbar; expected 8, got 6
+[2025-03-02T22:32:54.009Z] INFO: [POST] /karyawan - Status: 500 - 166ms
+[2025-03-02T22:32:56.013Z] ERROR: ❌ Error createKaryawan: Incorrect number of arguments for PROCEDURE gmedia_democase.sp_add_kary_Muhammad_David_Akbar; expected 8, got 6
+[2025-03-02T22:32:56.016Z] INFO: [POST] /karyawan - Status: 500 - 41ms
+[2025-03-02T22:32:56.668Z] ERROR: ❌ Error createKaryawan: Incorrect number of arguments for PROCEDURE gmedia_democase.sp_add_kary_Muhammad_David_Akbar; expected 8, got 6
+[2025-03-02T22:32:56.670Z] INFO: [POST] /karyawan - Status: 500 - 38ms
+[2025-03-02T22:33:31.280Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:33:37.543Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:33:43.475Z] ERROR: ❌ Error createKaryawan: Incorrect number of arguments for PROCEDURE gmedia_democase.sp_add_kary_Muhammad_David_Akbar; expected 8, got 6
+[2025-03-02T22:33:43.480Z] INFO: [POST] /karyawan - Status: 500 - 137ms
+[2025-03-02T22:34:35.351Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:34:40.692Z] ERROR: ❌ Error createKaryawan: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ?)' at line 1
+[2025-03-02T22:34:40.696Z] INFO: [POST] /karyawan - Status: 500 - 141ms
+[2025-03-02T22:35:06.375Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:35:09.675Z] ERROR: ❌ Error createKaryawan: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ?)' at line 1
+[2025-03-02T22:35:09.681Z] INFO: [POST] /karyawan - Status: 500 - 143ms
+[2025-03-02T22:35:33.077Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:35:38.461Z] INFO: ✅ Server running on port 3000
+[2025-03-02T22:35:44.787Z] INFO: ✅ Karyawan John Doe berhasil ditambahkan oleh ray dengan NIP: 20259259
+[2025-03-02T22:35:44.791Z] INFO: [POST] /karyawan - Status: 201 - 142ms
+[2025-03-02T22:36:06.183Z] INFO: ✅ Karyawan John Doe berhasil ditambahkan oleh ray dengan NIP: 20259260
+[2025-03-02T22:36:06.186Z] INFO: [POST] /karyawan - Status: 201 - 38ms
+[2025-03-02T22:36:14.115Z] INFO: [GET] /karyawan - Status: 200 - 57ms
+[2025-03-02T22:36:43.952Z] INFO: [GET] /karyawan - Status: 200 - 64ms
+[2025-03-02T22:37:06.496Z] INFO: [GET] /karyawan - Status: 200 - 64ms
+[2025-03-02T22:42:54.597Z] INFO: ✅ Karyawan suka bapak berhasil ditambahkan oleh ray dengan NIP: 20259261
+[2025-03-02T22:42:54.604Z] INFO: [POST] /karyawan - Status: 201 - 67ms
+[2025-03-02T23:01:46.507Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:01:52.085Z] INFO: [PATCH] /karyawan/deactivate - Status: 403 - 6ms
+[2025-03-02T23:02:55.901Z] WARN: ⚠️ 404 Not Found - [POST] /login
+[2025-03-02T23:02:55.903Z] INFO: [POST] /login - Status: 404 - 2ms
+[2025-03-02T23:03:04.145Z] INFO: [POST] /auth/login - Status: 401 - 139ms
+[2025-03-02T23:03:09.197Z] INFO: [POST] /auth/login - Status: 401 - 18ms
+[2025-03-02T23:03:38.901Z] INFO: [POST] /auth/login - Status: 401 - 18ms
+[2025-03-02T23:03:39.679Z] INFO: [POST] /auth/login - Status: 401 - 19ms
+[2025-03-02T23:03:42.781Z] INFO: [POST] /auth/login - Status: 401 - 17ms
+[2025-03-02T23:03:46.771Z] INFO: [POST] /auth/login - Status: 401 - 21ms
+[2025-03-02T23:03:47.503Z] INFO: [POST] /auth/login - Status: 401 - 20ms
+[2025-03-02T23:03:52.231Z] INFO: [POST] /auth/login - Status: 401 - 18ms
+[2025-03-02T23:04:31.708Z] WARN: ⚠️ 404 Not Found - [GET] /auth/login
+[2025-03-02T23:04:31.709Z] INFO: [GET] /auth/login - Status: 404 - 1ms
+[2025-03-02T23:04:33.175Z] WARN: ⚠️ 404 Not Found - [GET] /auth/login
+[2025-03-02T23:04:33.176Z] INFO: [GET] /auth/login - Status: 404 - 1ms
+[2025-03-02T23:04:38.873Z] INFO: [POST] /auth/login - Status: 200 - 68ms
+[2025-03-02T23:04:54.705Z] WARN: ⚠️ 404 Not Found - [PATCH] /karyawan/deactivate
+[2025-03-02T23:04:54.707Z] INFO: [PATCH] /karyawan/deactivate - Status: 404 - 5ms
+[2025-03-02T23:04:56.122Z] WARN: ⚠️ 404 Not Found - [PATCH] /karyawan/deactivate
+[2025-03-02T23:04:56.123Z] INFO: [PATCH] /karyawan/deactivate - Status: 404 - 2ms
+[2025-03-02T23:05:00.386Z] WARN: ⚠️ 404 Not Found - [PATCH] /karyawan/deactivate
+[2025-03-02T23:05:00.387Z] INFO: [PATCH] /karyawan/deactivate - Status: 404 - 2ms
+[2025-03-02T23:05:25.703Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:05:48.134Z] WARN: ⚠️ 404 Not Found - [PATCH] /karyawan/deactivate
+[2025-03-02T23:05:48.138Z] INFO: [PATCH] /karyawan/deactivate - Status: 404 - 8ms
+[2025-03-02T23:05:49.638Z] WARN: ⚠️ 404 Not Found - [PATCH] /karyawan/deactivate
+[2025-03-02T23:05:49.639Z] INFO: [PATCH] /karyawan/deactivate - Status: 404 - 3ms
+[2025-03-02T23:06:09.352Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:06:11.455Z] ERROR: ❌ Error deactivateKaryawan: Unknown column 'status' in 'field list'
+[2025-03-02T23:06:11.459Z] INFO: [PATCH] /karyawan/deactivate - Status: 500 - 137ms
+[2025-03-02T23:06:15.916Z] ERROR: ❌ Error deactivateKaryawan: Unknown column 'status' in 'field list'
+[2025-03-02T23:06:15.917Z] INFO: [PATCH] /karyawan/deactivate - Status: 500 - 22ms
+[2025-03-02T23:06:25.670Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:07:11.205Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:07:18.002Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:07:28.858Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:07:31.352Z] INFO: [PATCH] /karyawan/deactivate - Status: 200 - 123ms
+[2025-03-02T23:08:10.478Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:25:46.008Z] INFO: ✅ Server running on port 3000
+[2025-03-02T23:26:33.620Z] ERROR: ❌ Error deactivateKaryawan: getaddrinfo EAI_AGAIN gmedia.bz
+[2025-03-02T23:26:33.652Z] INFO: [PATCH] /karyawan/deactivate - Status: 500 - 5646ms
+[2025-03-02T23:26:48.288Z] INFO: [GET] /karyawan - Status: 403 - 5ms
+[2025-03-02T23:26:49.839Z] INFO: [GET] /karyawan - Status: 403 - 2ms
+[2025-03-02T23:27:04.061Z] INFO: [POST] /auth/login - Status: 500 - 5035ms
+[2025-03-02T23:29:44.606Z] INFO: [POST] /auth/login - Status: 500 - 5041ms
