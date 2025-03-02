@@ -13,7 +13,7 @@ const router = express.Router();
 router.get("/", authenticateToken, getKaryawan);
 
 // Menambahkan karyawan baru
-router.post("/", createKaryawan);
+router.post("/", authenticateToken, createKaryawan);
 
 // Memperbarui data karyawan berdasarkan NIP
 router.put("/", authenticateToken, updateKaryawan);

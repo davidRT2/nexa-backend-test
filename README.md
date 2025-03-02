@@ -34,12 +34,34 @@ TOKEN_EXPIRATION=1h
 
 ### **Karyawan Routes**
 
-| Method | Endpoint      | Middleware          | Deskripsi                                                             |
-| ------ | ------------- | ------------------- | --------------------------------------------------------------------- |
-| GET    | `/`           | `authenticateToken` | Mendapatkan daftar karyawan dengan pagination (keyword, start, count) |
-| POST   | `/`           | -                   | Menambahkan karyawan baru                                             |
-| PUT    | `/`           | `authenticateToken` | Memperbarui data karyawan berdasarkan NIP                             |
-| PATCH  | `/deactivate` | `authenticateToken` | Menonaktifkan karyawan berdasarkan NIP                                |
+### Karyawan Routes
+
+| Method | Endpoint      | Middleware          | Deskripsi                                                                       |
+| ------ | ------------- | ------------------- | ------------------------------------------------------------------------------- |
+| GET    | `/`           | `authenticateToken` | Mendapatkan daftar karyawan dengan keyword, start, dan count (pagination)       |
+| POST   | `/`           | `authenticateToken` | Menambahkan karyawan baru                                                       |
+| PUT    | `/`           | `authenticateToken` | Memperbarui data karyawan berdasarkan NIP (dikirim dalam **body request JSON**) |
+| PATCH  | `/deactivate` | `authenticateToken` | Menonaktifkan karyawan berdasarkan NIP (dikirim dalam **body request JSON**)    |
+
+### Contoh Request Body
+
+#### **Memperbarui Karyawan (PUT /)**
+
+```json
+{
+  "NIP": "123456",
+  "name": "John Doe",
+  "position": "Manager"
+}
+```
+
+#### **Menonaktifkan Karyawan (PATCH /deactivate)**
+
+```json
+{
+  "NIP": "123456"
+}
+```
 
 ### **Auth Routes**
 
